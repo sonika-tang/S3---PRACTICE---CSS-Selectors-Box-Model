@@ -1,0 +1,21 @@
+/* TODO */
+button{
+    border: 5px solid palevioletred;
+    border-radius: 25px;
+    color: white;
+    background-color: pink;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:serif;
+}
+button:hover{
+    cursor: pointer;
+    border: 5px solid purple;
+    background-color: plum;
+    text-transform: uppercase;
+    font-family:serif;
+}

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+}
+
+.profile-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(https://i.pinimg.com/736x/6a/e8/27/6ae827fcca32bf53c2a286efeb0b145d.jpg);
+    background-size: cover;
+}
+
+.name {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.role {
+    color: #bbb;
+    font-size: 0.9em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-body {
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 8px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #777;
+}
+
+.tab.active {
+    color: black;
+    border-bottom: 2px solid #333;
+}
+
+.about-section, .experience-section {
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.experience-section h3 {
+    font-size: 1.1em;
+    color: #333;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+}
+
+.experience-section h6{
+    font-size: 0.8em;
+    color: #666262;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.experience-item {
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+.Year{
+    font-size: 0.8em;
+}
+
+.schedule-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.schedule-button:hover {
+    background-color: #0088cc;
+}
